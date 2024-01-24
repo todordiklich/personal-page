@@ -1,0 +1,112 @@
+aside {
+  background-color: var(--background-color);
+  flex-basis: var(--aside-width);
+  flex-grow: 1;
+}
+
+aside .nav-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(var(--aside-width), 100%), 1fr)
+  );
+  gap: 1rem;
+}
+
+.nav-li {
+  font-size: 2rem;
+  list-style: none;
+  padding: 1.25rem 0;
+  width: 100%;
+  background-color: transparent;
+  transition: all 1.5s;
+  border-bottom: 1px solid var(--text-color);
+  margin-top: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-li.active .nav-a {
+  color: var(--text-color-hover);
+  transition: all 0.5s;
+}
+
+.nav-a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--text-color);
+  transition: all 500ms;
+  cursor: pointer;
+  user-select: none;
+}
+
+.nav-li > a:hover:not(#anchor-logo) {
+  transform: translate(5px);
+  transition: all 500ms;
+}
+
+#anchor-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 2rem;
+}
+
+#anchor-home > span:first-child {
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: -3px -3px #0d2f3d;
+}
+
+#anchor-home > span:last-child {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-top: 0.5rem;
+}
+
+#anchor-home > span {
+  pointer-events: none;
+}
+
+.logos {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.icon {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background-size: cover;
+}
+
+.icon-linkedin {
+  background-image: url(../assets/linkedin.svg);
+}
+
+.icon-linkedin:hover,
+.icon-linkedin:focus {
+  background-image: url(../assets/linkedin-hover.svg);
+}
+
+.icon-github {
+  background-image: url(../assets/github.svg);
+}
+
+.icon-github:hover,
+.icon-github:focus {
+  background-image: url(../assets/github-hover.svg);
+}

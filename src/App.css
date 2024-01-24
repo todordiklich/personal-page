@@ -1,0 +1,6 @@
+.page-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  height: 100vh;
+}

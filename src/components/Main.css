@@ -1,0 +1,10 @@
+main {
+  font-size: 1.5rem;
+  overflow-y: auto;
+  flex-basis: 60rem;
+  flex-grow: 9999;
+}
+
+main .section {
+  min-height: 100vh;
+}
