@@ -1,0 +1,35 @@
+#about {
+  padding-left: 0;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  gap: 2rem;
+}
+
+.about-content-left {
+  padding-left: 2rem;
+}
+
+.about-content-left,
+.about-content-right {
+  flex-basis: calc(var(--main-width) / 2);
+  flex-grow: 1;
+}
+
+.about-content-right {
+  min-height: 100vh;
+  background-image: url('../assets/TD.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-description {
+  font-size: 2rem;
+  font-weight: 500;
+  border-left: 2px solid var(--text-color-dark);
+  padding: 3rem;
+}

@@ -25,7 +25,7 @@ aside .nav-container {
   width: 100%;
   background-color: transparent;
   transition: all 1.5s;
-  border-bottom: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--text-color-mid);
   margin-top: auto;
 
   display: flex;
@@ -42,7 +42,7 @@ aside .nav-container {
   display: inline-block;
   text-decoration: none;
   font-weight: 700;
-  color: var(--text-color);
+  color: var(--text-color-mid);
   transition: all 500ms;
   cursor: pointer;
   user-select: none;
@@ -65,7 +65,7 @@ aside .nav-container {
 #anchor-home > span:first-child {
   font-size: 2rem;
   font-weight: 700;
-  text-shadow: -3px -3px #0d2f3d;
+  text-shadow: -3px -3px var(--text-color-shadow);
 }
 
 #anchor-home > span:last-child {

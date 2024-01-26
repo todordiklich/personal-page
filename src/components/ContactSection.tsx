@@ -21,7 +21,7 @@ export default function ContactSection({
 
   return (
     <div ref={ref} id="contact" className="section">
-      <h1 className="title">Contact</h1>
+      <h1 className="section-title">Contact.</h1>
       Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales,
       augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate
       eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed,

@@ -1,16 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 
 :root {
   --aside-width: 14rem;
+  --main-width: 60rem;
+  --text-color-dark: #0a1825;
+  --text-color-mid: #536378;
+  --text-color-light: #eaf5fa;
   --text-color-hover: #2c9ecd;
-  --text-color: #536378;
+  --text-color-shadow: #0d2f3d;
+  --text-color-tags: #858c92;
   --background-color: #0a1825;
+  --background-color-tint: #3b4651;
+  --background-light-color: #e7e8e9;
 }
 
 html {
   font-size: 62.5%;
   overflow: hidden;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -19,7 +28,8 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background-color: #e7e8e9;
+  color: var(--text-color-dark);
+  background-color: var(--background-light-color);
 }
 
 /*Scrollbar styles*/
@@ -30,7 +40,7 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--text-color);
+  background: var(--text-color-mid);
 }
 
 /* Handle */

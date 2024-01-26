@@ -1,10 +1,17 @@
 main {
   font-size: 1.5rem;
   overflow-y: auto;
-  flex-basis: 60rem;
+  flex-basis: var(--main-width);
   flex-grow: 9999;
 }
 
 main .section {
   min-height: 100vh;
+  padding-left: 1rem;
+}
+
+.section-title {
+  margin: 0;
+  padding: 4rem;
+  font-size: 6rem;
 }

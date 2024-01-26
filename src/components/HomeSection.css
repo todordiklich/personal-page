@@ -1,3 +1,80 @@
-#home .title {
-  margin-top: 0;
+#home {
+  position: relative;
+  background-color: var(--background-color-tint);
+  color: var(--text-color-light);
+}
+
+.home-title {
+  font-size: 6rem;
+}
+
+.home-title,
+.home-description {
+  margin: 0;
+  margin-left: 4rem;
+}
+
+.home-description {
+  color: var(--text-color-light);
+  font-style: italic;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.home-description-text {
+  opacity: 0.8;
+}
+
+.home-title .html-tag,
+.home-description .html-tag {
+  position: relative;
+  left: -2rem;
+}
+
+.html-tag {
+  display: block;
+  font-family: 'La Belle Aurore', sans-serif;
+  color: var(--text-color-tags);
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.home-title-name {
+  text-shadow: -3px -3px var(--background-color);
+}
+
+.btn {
+  margin: 5rem;
+  padding: 2rem 0rem;
+  color: var(--text-color-hover);
+  border: 2px solid var(--text-color-hover);
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.btn.contact a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 2rem 4rem;
+}
+
+.btn:hover {
+  background-color: var(--text-color-hover);
+  color: var(--text-color-light);
+}
+
+.home-footer {
+  user-select: none;
+  position: absolute;
+  transform: rotate(90deg);
+  bottom: 55px;
+}
+
+.home-footer.left {
+  left: -25px;
+}
+
+.home-footer.right {
+  right: -25px;
 }
