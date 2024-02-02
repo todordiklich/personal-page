@@ -1,0 +1,22 @@
+#skills {
+  padding-left: 0;
+  background-color: white;
+}
+
+.skills-content {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  gap: 2rem;
+}
+
+.skills-content-left,
+.skills-content-right {
+  flex-basis: calc(var(--main-width) / 2);
+  flex-grow: 1;
+}
+
+.certificates {
+  text-align: center;
+  text-shadow: -1px -1px var(--text-color-hover);
+}

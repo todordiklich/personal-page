@@ -44,6 +44,7 @@
 }
 
 .btn {
+  display: inline-block;
   margin: 5rem;
   padding: 2rem 0rem;
   color: var(--text-color-hover);
@@ -52,7 +53,7 @@
   transition: all 0.5s;
 }
 
-.btn.contact a {
+.btn.contact {
   color: inherit;
   text-decoration: none;
   font-size: 2rem;

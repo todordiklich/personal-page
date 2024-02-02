@@ -1,0 +1,18 @@
+.skills-category-content {
+  margin: 0 2rem;
+}
+
+.skills-category {
+  border-bottom: 1px solid var(--background-color-tint);
+  text-align: center;
+}
+
+.skills-item-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}

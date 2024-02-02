@@ -1,0 +1,10 @@
+.skills-item {
+  flex-grow: 1;
+  flex-basis: calc(var(--main-width) / 4);
+  text-align: center;
+
+  padding: 1rem;
+  display: inline-block;
+  background-color: var(--background-light-color);
+  border-radius: 3px;
+}

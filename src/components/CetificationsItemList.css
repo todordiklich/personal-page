@@ -1,0 +1,19 @@
+.certifications-item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.cert-btn {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.75rem;
+  padding: 1rem 8rem;
+  margin: 1rem auto;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: var(--text-color-hover);
+  color: var(--text-color-light);
+}

@@ -9,10 +9,6 @@
   gap: 2rem;
 }
 
-.about-content-left {
-  padding-left: 2rem;
-}
-
 .about-content-left,
 .about-content-right {
   flex-basis: calc(var(--main-width) / 2);
@@ -32,4 +28,5 @@
   font-weight: 500;
   border-left: 2px solid var(--text-color-dark);
   padding: 3rem;
+  margin-left: 2rem;
 }

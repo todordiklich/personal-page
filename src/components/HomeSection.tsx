@@ -33,9 +33,10 @@ export default function HomeSection({ setInViewElemnt }: HomeSectionProps) {
         <span className="home-description-text">Front End Developer</span>
         <span className="html-tag">&lt;&#47;p&gt;</span>
       </p>
-      <button className="btn contact">
-        <a href="#contact">Contact me!</a>
-      </button>
+      <a className="btn contact" href="#contact">
+        Contact me!
+      </a>
+
       <span className="home-footer left">scroll down &rarr;</span>
       <span className="home-footer right">scroll down &rarr;</span>
     </div>

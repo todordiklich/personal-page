@@ -1,0 +1,30 @@
+.cert-category-content {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  border-bottom: 1px solid var(--background-color-tint);
+  margin-right: 3rem;
+  padding-bottom: 0.25rem;
+}
+
+.cert-picture {
+  width: 30px;
+  height: 30px;
+}
+
+.cert-title {
+  margin: 0;
+}
+
+.cert-title-text {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.cert-author {
+  font-size: 1.25rem;
+  font-style: italic;
+  margin: 0;
+}
