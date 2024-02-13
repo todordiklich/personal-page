@@ -1,0 +1,55 @@
+.work-data-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.work-data-info {
+  display: grid;
+  grid-template-columns: 17rem 1fr;
+}
+
+.work-data-info:last-of-type {
+  margin-bottom: 1rem;
+}
+
+.work-period {
+  font-weight: 600;
+  color: var(--text-color-hover);
+}
+
+.work-description-position {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-color-hover);
+}
+
+.work-description-company {
+  font-style: italic;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.work-description-resp {
+  line-height: 1.5;
+}
+
+.main-resp {
+  text-decoration: underline;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.main-resp-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-resp-item {
+  margin: 0 1rem 0 1.5rem;
+}
+
+.main-resp-item span {
+  position: relative;
+  left: -7px;
+}

@@ -3,6 +3,7 @@
 }
 
 .skills-category {
+  margin: 2rem auto;
   border-bottom: 1px solid var(--background-color-tint);
   text-align: center;
 }

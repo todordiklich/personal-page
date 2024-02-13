@@ -2,7 +2,7 @@ import CetificationsItem from './CertificationsItem';
 
 import { certificationsData } from '../utils/certifications-data';
 
-import './CetificationsItemList.css';
+import './CertificationsItemList.css';
 
 export default function CetificationsItemList() {
   return (

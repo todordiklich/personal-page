@@ -8,3 +8,7 @@
   background-color: var(--background-light-color);
   border-radius: 3px;
 }
+
+.skills-category-content:last-child {
+  margin-bottom: 1rem;
+}

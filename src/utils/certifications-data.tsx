@@ -38,12 +38,6 @@ export const certificationsData: CertificationType[] = [
     image: udemyLogo,
   },
   {
-    title: 'React: Design Patterns',
-    provider: 'LinkedIn',
-    author: 'Shaun Wassell',
-    image: linkedInLogo,
-  },
-  {
     title: 'Understanding TypeScript',
     provider: 'Udemy',
     author: 'Maximilian Schwarzmuller',
@@ -56,22 +50,10 @@ export const certificationsData: CertificationType[] = [
     image: udemyLogo,
   },
   {
-    title: 'React Hooks',
-    provider: 'LinkedIn',
-    author: 'Eve Porcello',
-    image: linkedInLogo,
-  },
-  {
     title: 'The Complete Sass & SCSS Course: From Beginner to Advanced',
     provider: 'Udemy',
     author: 'Joe Parys & Peter Sommerhoff',
     image: udemyLogo,
-  },
-  {
-    title: 'TypeScript Essential Training',
-    provider: 'LinkedIn',
-    author: 'Jess Chadwick',
-    image: linkedInLogo,
   },
   {
     title: 'Modern React with Redux [2023 Update]',
@@ -91,6 +73,26 @@ export const certificationsData: CertificationType[] = [
     author: 'Jonas Schmedtmann',
     image: udemyLogo,
   },
+  {
+    title: 'React Hooks',
+    provider: 'LinkedIn',
+    author: 'Eve Porcello',
+    image: linkedInLogo,
+  },
+  {
+    title: 'React: Design Patterns',
+    provider: 'LinkedIn',
+    author: 'Shaun Wassell',
+    image: linkedInLogo,
+  },
+
+  {
+    title: 'TypeScript Essential Training',
+    provider: 'LinkedIn',
+    author: 'Jess Chadwick',
+    image: linkedInLogo,
+  },
+
   {
     title: 'JavaScript Algorithms and Data Structures',
     provider: 'freeCodeCamp',

@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 
 import { CertificationType } from '../utils/certifications-data';
 
-import './CetificationsItem.css';
+import './CertificationsItem.css';
 
 type CetificationsItemProps = {
   children?: ReactNode;
