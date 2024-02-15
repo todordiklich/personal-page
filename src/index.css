@@ -13,7 +13,7 @@
   --text-color-tags: #858c92;
   --background-color: #0a1825;
   --background-color-tint: #3b4651;
-  --background-light-color: #e7e8e9;
+  --background-light-color: rgb(231, 232, 233);
 }
 
 * {

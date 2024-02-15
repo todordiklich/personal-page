@@ -1,0 +1,103 @@
+#contact {
+  background: white;
+  padding-left: 0;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3) inset;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+
+  width: min(90%, 800px);
+  margin: 0 auto;
+  padding: 3rem;
+  background: var(--background-light-color);
+  border-radius: 7px;
+
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.07),
+    0px 2px 4px 0px rgba(0, 0, 0, 0.07), 0px 4px 8px 0px rgba(0, 0, 0, 0.07),
+    0px 8px 16px 0px rgba(0, 0, 0, 0.07), 0px 16px 32px 0px rgba(0, 0, 0, 0.07),
+    0px 32px 64px 0px rgba(0, 0, 0, 0.07);
+}
+
+.contact-image {
+  min-height: 125px;
+  min-width: 125px;
+  background-image: url(/src/assets/TD.jpeg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+
+  border-radius: 100%;
+  border: 5px solid #fff;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.6);
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+.contact-name {
+  letter-spacing: 0.2rem;
+  font-size: 3.5rem;
+}
+
+.contact-data-wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 1.5rem;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.contact-link:hover {
+  color: var(--text-color-hover);
+}
+
+.contact-email-img {
+  background-image: url(../assets/email.svg);
+}
+
+.contact-phone-img {
+  background-image: url(../assets/phone.svg);
+}
+
+.contact-location-img {
+  background-image: url(../assets/location-pin.svg);
+}
+
+.contact-container-summary {
+  margin-top: 2rem;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.contact-container-summary-link {
+  color: var(--text-color-hover);
+  filter: brightness(0.5);
+}
+
+.contact-container-summary-link:hover {
+  filter: brightness(1);
+}

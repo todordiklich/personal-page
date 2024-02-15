@@ -4,6 +4,8 @@ import { useInView } from 'react-intersection-observer';
 import { InViewelEmentType } from '../App';
 import { intersectionObserverOptions } from '../utils/intersectionObserverOptions';
 
+import './ContactSection.css';
+
 type ContactSectionProps = {
   setInViewElemnt: (inViewElement: InViewelEmentType) => void;
 };
@@ -22,28 +24,51 @@ export default function ContactSection({
   return (
     <div ref={ref} id="contact" className="section">
       <h1 className="section-title">Contact.</h1>
-      Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales,
-      augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate
-      eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed,
-      nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu
-      turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci
-      luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer
-      lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget,
-      imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris.
-      Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris.
-      Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy
-      metus. Vestibulum volutpat pretium libero. Cras id dui. Lorem ipsum dolor
-      sit amet consectetur, adipisicing elit. Consequatur cum nisi magni qui
-      saepe sapiente consequuntur, velit molestiae repudiandae omnis eligendi,
-      ipsa quod? Ut quisquam cum consequatur asperiores explicabo, id doloremque
-      libero possimus earum, officiis cupiditate vel quia nulla mollitia velit
-      corrupti obcaecati saepe? Animi rem, laboriosam id consequatur eligendi
-      perferendis. Illo repellendus officia atque laborum? Cumque est iusto,
-      unde maxime molestias eius dignissimos tempora, officiis modi et, odio
-      esse pariatur exercitationem? Enim reiciendis omnis id doloremque rerum
-      placeat, voluptas in distinctio quibusdam! Debitis eligendi, ratione
-      possimus consectetur eveniet doloremque illum maxime velit non. Cumque
-      officia aperiam non nam reprehenderit.
+      <div className="contact-container">
+        <div className="contact-image"></div>
+        <h3 className="contact-name">Todor Diklich</h3>
+        <div className="contact-data-wrapper">
+          <span className="contact-email-img icon" />
+          <a className="contact-link" href="mailto:todordiklich@gmail.com">
+            todordiklich@gmail.com
+          </a>
+        </div>
+        <div className="contact-data-wrapper">
+          <span className="contact-phone-img icon" />
+          <a className="contact-link" href="tel:+359877907422">
+            +359 877 907 422
+          </a>
+        </div>
+        <div className="contact-data-wrapper">
+          <span className="contact-location-img icon" />
+          <a
+            className="contact-link"
+            target="_blank"
+            href="https://www.google.com/maps/place/Gabrovo/@42.8778184,25.28281,12.25z/data=!4m6!3m5!1s0x40a90fe2d6958745:0x400a01269bf5010!8m2!3d42.8742212!4d25.3186837!16zL20vMDNqZm1w?entry=ttu"
+          >
+            5300 Gabrovo, Bulgaria
+          </a>
+        </div>
+        <p className="contact-container-summary">
+          Thanks for visiting! You can contact me via{' '}
+          <a
+            className="contact-container-summary-link"
+            href="https://www.linkedin.com/in/todor-diklich-bb5999121/"
+            target="_blank"
+          >
+            LinkedIn
+          </a>{' '}
+          or check my{' '}
+          <a
+            className="contact-container-summary-link"
+            href="https://github.com/todordiklich?tab=repositories"
+            target="_blank"
+          >
+            GitHub
+          </a>{' '}
+          profile.
+        </p>
+      </div>
     </div>
   );
 }
