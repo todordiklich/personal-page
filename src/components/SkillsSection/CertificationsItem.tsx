@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-import { CertificationType } from '../utils/certifications-data';
+import { CertificationType } from '../../utils/certifications-data';
 
 import './CertificationsItem.css';
 

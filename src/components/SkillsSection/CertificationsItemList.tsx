@@ -1,6 +1,6 @@
 import CetificationsItem from './CertificationsItem';
 
-import { certificationsData } from '../utils/certifications-data';
+import { certificationsData } from '../../utils/certifications-data';
 
 import './CertificationsItemList.css';
 

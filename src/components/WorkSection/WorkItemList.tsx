@@ -1,4 +1,4 @@
-import { workData } from '../utils/work-data';
+import { workData } from '../../utils/work-data';
 
 import './WorkItemList.css';
 

@@ -2,7 +2,7 @@ import SkillsItem from './SkillsItem';
 
 import './SkillsItemList.css';
 
-import { skillsData } from '../utils/skills-data';
+import { skillsData } from '../../utils/skills-data';
 
 export default function SkillsItemList() {
   return (

@@ -4,8 +4,8 @@ import { useInView } from 'react-intersection-observer';
 import SkillsItemList from './SkillsItemList';
 import CetificationsItemList from './CertificationsItemList';
 
-import { InViewelEmentType } from '../App';
-import { intersectionObserverOptions } from '../utils/intersectionObserverOptions';
+import { InViewelEmentType } from '../../App';
+import { intersectionObserverOptions } from '../../utils/intersectionObserverOptions';
 
 import './SkillsSection.css';
 

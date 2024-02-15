@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 
-import { InViewelEmentType } from '../App';
-import { intersectionObserverOptions } from '../utils/intersectionObserverOptions';
+import { InViewelEmentType } from '../../App';
+import { intersectionObserverOptions } from '../../utils/intersectionObserverOptions';
 
 import './AboutSection.css';
 

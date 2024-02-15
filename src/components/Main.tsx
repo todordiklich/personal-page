@@ -1,8 +1,8 @@
-import HomeSection from './HomeSection';
-import AboutSection from './AboutSection';
-import SkillsSection from './SkillsSection';
-import WorkSection from './WorkSection';
-import ContactSection from './ContactSection';
+import HomeSection from './HomeSection/HomeSection';
+import AboutSection from './AboutSection/AboutSection';
+import SkillsSection from './SkillsSection/SkillsSection';
+import WorkSection from './WorkSection/WorkSection';
+import ContactSection from './ContactSection/ContactSection';
 
 import { InViewelEmentType } from '../App';
 

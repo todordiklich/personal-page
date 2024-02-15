@@ -3,8 +3,8 @@ import { useInView } from 'react-intersection-observer';
 
 import WorkItemList from './WorkItemList';
 
-import { InViewelEmentType } from '../App';
-import { intersectionObserverOptions } from '../utils/intersectionObserverOptions';
+import { InViewelEmentType } from '../../App';
+import { intersectionObserverOptions } from '../../utils/intersectionObserverOptions';
 
 type WorkSectionProps = {
   setInViewElemnt: (inViewElement: InViewelEmentType) => void;
