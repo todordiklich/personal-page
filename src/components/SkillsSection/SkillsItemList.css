@@ -1,5 +1,8 @@
 .skills-category-content {
-  margin: 0 2rem;
+  margin: 0 3rem;
+  border-radius: 7px;
+  padding: 1rem;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.4);
 }
 
 .skills-category {

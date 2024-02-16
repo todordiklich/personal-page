@@ -1,7 +1,17 @@
 .certifications-item-list {
+  padding-left: 1rem;
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  flex-wrap: wrap;
+  gap: 3rem 2rem;
+}
+
+.cert-category-content {
+  flex-basis: calc(var(--main-width) / 2);
+  flex-grow: 1;
+}
+
+.cert-btn-container {
+  text-align: center;
 }
 
 .cert-btn {
@@ -9,7 +19,6 @@
   text-decoration: none;
   font-size: 1.75rem;
   padding: 1rem 8rem;
-  margin: 1rem auto;
   font-weight: 600;
 }
 

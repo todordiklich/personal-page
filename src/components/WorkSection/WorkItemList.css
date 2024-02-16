@@ -19,7 +19,7 @@
 
 .work-period {
   font-weight: 600;
-  color: var(--text-color-hover);
+  padding-left: 1rem;
 }
 
 .work-description-position {

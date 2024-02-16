@@ -1,6 +1,13 @@
 #home {
   position: relative;
-  background-color: var(--background-color-tint);
+  background-image: linear-gradient(
+    to right bottom,
+    #3b4651,
+    #39434d,
+    #363f48,
+    #343c44,
+    #323940
+  );
   color: var(--text-color-light);
 }
 

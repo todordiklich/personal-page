@@ -18,6 +18,7 @@ export default function CetificationsItem({
         className="cert-picture"
         src={certification.image}
         alt={`${certification.provider} logo`}
+        title={certification.provider}
       />
       <div className="cert-title">
         <p className="cert-title-text">{certification.title}</p>

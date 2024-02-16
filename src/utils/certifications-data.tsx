@@ -20,6 +20,12 @@ export type CertificationType = {
 
 export const certificationsData: CertificationType[] = [
   {
+    title: 'JavaScript - The Complete Guide 2024 (Beginner + Advanced)',
+    provider: 'Udemy',
+    author: 'Maximilian Schwarzmuller',
+    image: udemyLogo,
+  },
+  {
     title: 'CSS - The Complete Guide 2023 (incl. Flexbox, Grid & Sass)',
     provider: 'Udemy',
     author: 'Maximilian Schwarzmuller & Manuel Lorenz',
@@ -99,18 +105,16 @@ export const certificationsData: CertificationType[] = [
     author: 'Quincy Larson',
     image: freeCodeCampLogo,
   },
-
-  /* not needed for now 
-   {
+  {
     title: 'React.js: Building an Interface',
     provider: 'LinkedIn',
     author: 'Ray Villalobos',
     image: linkedInLogo,
   },
-    {
-    title: 'CSS Fundamentals: Unlock the Power of Web Styling',
+  {
+    title: 'JavaScript: Patterns',
     provider: 'LinkedIn',
-    author: 'Carrie Dils',
+    author: 'Emmanuel Henri',
     image: linkedInLogo,
   },
   {
@@ -125,13 +129,14 @@ export const certificationsData: CertificationType[] = [
     author: 'Jamie Pittman',
     image: linkedInLogo,
   },
-  {
-    title: 'JavaScript: Patterns',
+
+  /* not needed for now 
+    {
+    title: 'CSS Fundamentals: Unlock the Power of Web Styling',
     provider: 'LinkedIn',
-    author: 'Emmanuel Henri',
+    author: 'Carrie Dils',
     image: linkedInLogo,
   },
-  
   {
     title: 'Entity Framework Core',
     provider: 'SoftUni',

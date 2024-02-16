@@ -60,6 +60,7 @@
 
 .contact-data-wrapper {
   display: grid;
+  align-items: center;
   grid-template-columns: auto 1fr;
   column-gap: 1.5rem;
 }
@@ -76,15 +77,15 @@
 }
 
 .contact-email-img {
-  background-image: url(../assets/email.svg);
+  background-image: url(../../assets/email.svg);
 }
 
 .contact-phone-img {
-  background-image: url(../assets/phone.svg);
+  background-image: url(../../assets/phone.svg);
 }
 
 .contact-location-img {
-  background-image: url(../assets/location-pin.svg);
+  background-image: url(../../assets/location-pin.svg);
 }
 
 .contact-container-summary {

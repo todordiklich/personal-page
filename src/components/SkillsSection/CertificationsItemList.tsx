@@ -11,6 +11,8 @@ export default function CetificationsItemList() {
         {certificationsData.map((cert) => (
           <CetificationsItem key={cert.title} certification={cert} />
         ))}
+      </ul>
+      <div className="cert-btn-container">
         <a
           className="btn cert-btn"
           target="_blank"
@@ -18,7 +20,7 @@ export default function CetificationsItemList() {
         >
           View All &rarr;
         </a>
-      </ul>
+      </div>
     </>
   );
 }

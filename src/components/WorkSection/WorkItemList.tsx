@@ -15,7 +15,7 @@ export default function WorkItemList() {
             <div className="work-description">
               <p className="work-description-position">{work.position}</p>
               <p className="work-description-company">at {work.companyName}</p>
-              <p className="work-description-resp">
+              <div className="work-description-resp">
                 <span className="main-resp">Main responsibilities:</span>
                 <ul className="main-resp-list">
                   {work.responsibilities.map((resp, idx) => {
@@ -26,7 +26,7 @@ export default function WorkItemList() {
                     );
                   })}
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
         );

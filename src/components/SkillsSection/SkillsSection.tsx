@@ -24,12 +24,12 @@ export default function SkillsSection({ setInViewElemnt }: SkillsSectionProps) {
 
   return (
     <div ref={ref} id="skills" className="section">
+      <h1 className="section-title">Skills.</h1>
       <div className="skills-content">
-        <div className="skills-content-left">
-          <h1 className="section-title">Skills.</h1>
+        <div className="skills-content-skills">
           <SkillsItemList />
         </div>
-        <div className="skills-content-right">
+        <div className="skills-content-certificates">
           <h1 className="certificates">Licenses & certifications</h1>
           <CetificationsItemList />
         </div>
