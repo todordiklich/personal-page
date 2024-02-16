@@ -54,6 +54,7 @@
 }
 
 .contact-name {
+  text-align: center;
   letter-spacing: 0.2rem;
   font-size: 3.5rem;
 }
