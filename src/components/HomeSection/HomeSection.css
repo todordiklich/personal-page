@@ -12,7 +12,8 @@
 }
 
 .home-title {
-  font-size: 6rem;
+  font-size: 5.5rem;
+  word-wrap: break-word;
 }
 
 .home-title,
@@ -50,7 +51,9 @@
   text-shadow: -3px -3px var(--background-color);
 }
 
-.btn {
+.btn,
+.btn:link,
+.btn:visited {
   display: inline-block;
   margin: 5rem;
   padding: 2rem 0rem;
@@ -67,7 +70,8 @@
   padding: 2rem 4rem;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:active {
   background-color: var(--text-color-hover);
   color: var(--text-color-light);
 }

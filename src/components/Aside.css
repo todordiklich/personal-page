@@ -48,7 +48,8 @@ aside .nav-container {
   user-select: none;
 }
 
-.nav-li > a:hover:not(#anchor-logo) {
+.nav-li > a:hover:not(#anchor-logo),
+.nav-li > a:active:not(#anchor-logo) {
   transform: translate(5px);
   transition: all 500ms;
 }
@@ -98,6 +99,7 @@ aside .nav-container {
 }
 
 .icon-linkedin:hover,
+.icon-linkedin:active,
 .icon-linkedin:focus {
   background-image: url(../assets/linkedin-hover.svg);
 }
@@ -107,6 +109,7 @@ aside .nav-container {
 }
 
 .icon-github:hover,
+.icon-github:active,
 .icon-github:focus {
   background-image: url(../assets/github-hover.svg);
 }

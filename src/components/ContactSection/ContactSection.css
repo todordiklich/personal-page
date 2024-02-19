@@ -95,11 +95,14 @@
   text-align: center;
 }
 
-.contact-container-summary-link {
+.contact-container-summary-link,
+.contact-container-summary-link:link,
+.contact-container-summary-link:visited {
   color: var(--text-color-hover);
   filter: brightness(0.5);
 }
 
-.contact-container-summary-link:hover {
+.contact-container-summary-link:hover,
+.contact-container-summary-link:active {
   filter: brightness(1);
 }

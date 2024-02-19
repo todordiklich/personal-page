@@ -14,7 +14,9 @@
   text-align: center;
 }
 
-.cert-btn {
+.cert-btn,
+.cert-btn:link,
+.cert-btn:visited {
   color: inherit;
   text-decoration: none;
   font-size: 1.75rem;
@@ -22,7 +24,8 @@
   font-weight: 600;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:active {
   background-color: var(--text-color-hover);
   color: var(--text-color-light);
 }
