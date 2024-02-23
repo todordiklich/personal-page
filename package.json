@@ -1,6 +1,7 @@
 {
+  "homepage": "https://todordiklich/com",
   "name": "personal-page",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
