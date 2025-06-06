@@ -1,7 +1,22 @@
 export const workData = [
   {
-    from: '06/2022',
+    from: '07/2024',
     to: 'Present',
+    position: 'Frontend Developer',
+    companyName: 'Avature',
+    responsibilities: [
+      'Create a responsive website using HTML, CSS, and vanilla JavaScript',
+      'Collaborate with team members to define objectives, design functional features, and enhance the user experience',
+      'Optimize applications for maximum speed, scalability, and cross-browser compatibility',
+      'Implement UI/UX designs and ensure visual consistency across the platform',
+      'Translating designs and wireframes into high-quality code',
+      'Building reusable components',
+      'Ensure a high standard of code quality and maintainability',
+    ],
+  },
+  {
+    from: '06/2022',
+    to: '07/2024',
     position: 'Senior Support Specialist',
     companyName: 'Luxoft',
     responsibilities: [

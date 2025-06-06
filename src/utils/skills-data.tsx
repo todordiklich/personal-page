@@ -12,6 +12,7 @@ export const skillsData = [
       'Git',
       'GitHub',
       'GitLab',
+      'Figma',
     ],
   },
   {
@@ -22,6 +23,7 @@ export const skillsData = [
       'REST API',
       'ASP.NET Core',
       'Entity Framework',
+      'Twig',
     ],
   },
   {

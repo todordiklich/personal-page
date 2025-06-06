@@ -13,7 +13,7 @@ export default function Aside({ inViewElement }: AsideProps) {
         <li className={`nav-li ${inViewElement === 'home' ? 'active' : null}`}>
           <a className="nav-a" id="anchor-home" href="#home">
             <span>Todor</span>
-            <span>Front End Developer</span>
+            <span>Frontend Developer</span>
           </a>
         </li>
         <li className={`nav-li ${inViewElement === 'about' ? 'active' : null}`}>
