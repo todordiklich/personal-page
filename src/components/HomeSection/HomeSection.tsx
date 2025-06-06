@@ -30,7 +30,7 @@ export default function HomeSection({ setInViewElemnt }: HomeSectionProps) {
       </h1>
       <p className="home-description">
         <span className="html-tag">&lt;p&gt;</span>
-        <span className="home-description-text">Front End Developer</span>
+        <span className="home-description-text">Frontend Developer</span>
         <span className="html-tag">&lt;&#47;p&gt;</span>
       </p>
       <a className="btn contact" href="#contact">
